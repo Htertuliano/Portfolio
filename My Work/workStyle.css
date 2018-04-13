@@ -8,12 +8,20 @@ body {
     background: aliceblue;
     }
 
+#menu {
+    background: black;
+    color: white;
+    width: 120px;
+    border-radius: 10px;
+    position: absolute;
+    margin: 300px 0px 0px 0px;    
+    }
 
 #pic1 {
      border: double black 8px;
      border-radius: 9px;
      position: relative;
-    float: left;
+     float: left;
      
     }
 
@@ -44,7 +52,16 @@ body {
      border: double black 8px;
      border-radius: 9px;
      position: relative;
-     float: right;
+     right: -70px;
     
     }
-
+    
+    a {
+    color: black;
+    text-decoration: none;
+    }
+    
+#hom {
+    position: fixed;
+    bottom: 0px;
+    }
