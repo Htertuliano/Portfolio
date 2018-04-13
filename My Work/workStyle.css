@@ -16,9 +16,42 @@ body {
     margin: 300px 0px 0px 0px;    
     }
 
-#pic {
-    height: 200px;
+#pic1 {
+     border: double black 8px;
+     border-radius: 9px;
+     position: relative;
+    float: left;
+     
     }
-#pics {
-    position: relative;
-    margin: 0px 0px 0px 300px;}
+
+#pic2 {
+     border: double black 8px;
+     border-radius: 9px;
+     position: relative;
+     top: 60ex;
+    }
+
+#pic3 {
+     border: double black 8px;
+     border-radius: 9px;
+     position: relative;
+     top: 60ex;
+     left: 2.5ex;
+    }
+
+#pic4 {
+     border: double black 8px;
+     border-radius: 9px;
+     position: relative;
+     top: 60ex;
+     left: 5ex;
+    }
+
+#pic5 {
+     border: double black 8px;
+     border-radius: 9px;
+     position: relative;
+     float: right;
+    
+    }
+
