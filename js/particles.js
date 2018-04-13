@@ -1,3 +1,4 @@
+
 var pJS = function(tag_id, params){
 
   var canvas_el = document.querySelector('#'+tag_id+' > .particles-js-canvas-el');
@@ -83,7 +84,7 @@ var pJS = function(tag_id, params){
       events: {
         onhover: {
           enable: true,
-          mode: 'repulse'
+          mode: 'grab'
         },
         onclick: {
           enable: true,
