@@ -1,20 +1,13 @@
 html, body {
     height: 100%;
     width: 100%;
+    overflow: hidden;
     }
 
 body {
     background: aliceblue;
     }
 
-#menu {
-    background: black;
-    color: white;
-    width: 120px;
-    border-radius: 10px;
-    position: absolute;
-    margin: 300px 0px 0px 0px;    
-    }
 
 #pic1 {
      border: double black 8px;
