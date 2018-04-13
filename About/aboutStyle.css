@@ -89,6 +89,97 @@ body {
   from { transform: rotate(360deg); }
 }
 
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: #a8b2bb;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.wave {
+  opacity: .43;
+  position: absolute;
+  background: #9e1313;
+  width: 600px;
+  height: 600px;
+  margin: 20px 0px 0px 600px;
+  transform-origin: 35% 28%;
+  border-radius: 33%;
+  animation: drift 9000ms infinite linear;
+}
+
+.wave.-two {
+  animation: drift 7500ms infinite cubic-bezier(0.75, 0.46, 1, 1);
+  animation-direction: reverse;
+  opacity: .6;
+  background: #a2a043;
+}
+
+.wave.-three {
+  animation: drift 8000ms infinite cubic-bezier(.2, 0, 0.56, 0.62);
+  background: #412a60;
+
+  opacity: .7;
+}
+
+@font-face {
+  font-family: 'Gnuolane Regular';
+  src: local(Gnuolane);
+  }
+.pageInfo {
+  position: relative;
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Gnuolane Regular';
+  font-style: oblique;
+  letter-spacing: .2em;
+  word-wrap: break-word;
+  margin: -5px 0px 0px 0px;
+  width: 600px;
+  font-size: 65px;
+}
+
+.rene {
+  font-size: 30px;
+  }
+
+#Meaning {
+  position: relative;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Gnuolane Regular';
+  font-style: oblique;
+  letter-spacing: .2em;
+  word-wrap: break-word;
+  margin: -450px 0px 0px 1250px;
+  width: 300px;
+     }
+
+#myInfo {
+  position: relative;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Gnuolane Regular';
+  font-style: oblique;
+  letter-spacing: .2em;
+  word-wrap: break-word;
+  margin: -650px 0px 0px 1250px;
+  font-size: 12px;
+  width: 200px;
+     }
+
+@keyframes drift {
+  from { transform: rotate(0deg); }
+  from { transform: rotate(360deg); }
+}
+
     a {
     color: black;
     text-decoration: none;
