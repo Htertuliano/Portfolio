@@ -21,49 +21,51 @@ html{
 
 #HaqqHeader {
 	font-family: Futura BQ;
-	font-style: italic;
-	font-size: 20px;
-	color: #dd0426;
+	font-style: italic;	
+	font-variant:all-petite-caps;
+	color: white;
 	position: absolute;
+	width: 100%;
+	margin-top: 3%;
 	text-align: center;
-	margin: 10px 0px 0px 635px ;
+	padding: auto;
 	}
-p {
-	width: 150px;
-	}
+
+.heading {
+	font-size: 150%;
+}
+
+#aboutMe:hover {
 	
-#about:hover {
-	font-size: 30px;
-	color: #a8b2bb;
-	}
-    
-#about {
-    font-size: 18px;
+
+
+}	    
+
+#aboutMe {
+    font-size: 80%;
 	text-decoration: none;
 	-webkit-transition: font-size 2s;
 	font-family: Futura BQ;
-	color: #dd0426;
-	position: absolute;
-	text-align: center;
-	margin: 15px 0px 0px 30px;
-	}
+	margin: auto;
+	position: relative;
+	float: left;
+	margin: 10% 0 0 10%;
+		}
 
-#myWork:hover {
-	color: aliceblue;
-	font-size: 30px;
-	}
+a {
+ 	text-decoration: none;
+	color: white;
+}
 
-#myWork {
-	color: #dd0426;
-	font-size: 18px;
-	text-decoration: none;
+#Work {
+	font-size: 80%;
 	-webkit-transition: font-size 2s;
    	font-family: Futura BQ;
-   	font-size: 18px;
-	position: absolute;
-    margin: 15px 0px 0px 700px;
-   	text-align: center;
+	position: relative;
+   	float: right;
+	margin: 10% 10% 0 0;
 	}
+
 #footy {
 	width: 200px;
 	height: 100px;
@@ -71,16 +73,24 @@ p {
 	bottom: -40px;
 	left: 750px;
 	}
+
+#instaLogo, #gitLogo { 
+	width: 2em;
+	height: 2em;
+}
+
+#instaLogo:hover, #gitLogo:hover {
+	width: 3em;
+	height: 3em;
+}
+
 #logos {
-	height: 20px;
-	width: 20px;
-	
+	width: 100%;
 	}
 
-
 canvas{
-  display:block;
-  vertical-align:bottom;
+  display: block;
+  vertical-align: bottom;
 }
 
 
@@ -89,9 +99,9 @@ canvas{
 #particles-js{
   width: 100%;
   height: 100%;
-  background-color: antiquewhite;
+  background-color: #22223B;
   background-image: url('');
   background-size: cover;
   background-position: 50% 50%;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;	
 }
